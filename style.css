@@ -1,0 +1,10 @@
+@font-face{
+    font-family: 'roboto';
+    src: url('fonts/Roboto-Black.ttf');
+}
+
+
+body{
+    background-color: rgb(102, 136, 151);
+    font-family: 'roboto';
+}
