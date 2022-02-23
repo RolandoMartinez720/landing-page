@@ -7,4 +7,40 @@
 body{
     background-color: rgb(102, 136, 151);
     font-family: 'roboto';
+    font-weight: bold;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+}
+
+#logo{
+    flex:1;
+    margin-left:90px;
+}
+
+.links{
+    display: flex;
+    margin-right:90px;
+    gap: 20px;
+    flex:0 0 auto;
+    width:350px
+
+}
+
+.hero{
+    display:flex;
+}
+
+.hero-column{
+    display:flex;
+    flex-direction:column;
 }
