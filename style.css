@@ -1,13 +1,9 @@
-@font-face{
-    font-family: 'roboto';
-    src: url('fonts/Roboto-Black.ttf');
-}
+
 
 
 body{
-    background-color: rgb(102, 136, 151);
-    font-family: 'roboto';
-    font-weight: bold;
+    background-color: rgb(17, 18, 19);
+    
 }
 
 .body{
@@ -17,6 +13,7 @@ body{
 }
 
 .header{
+    background-color: aquamarine;
     display: flex;
     justify-content: space-between;
     height: 150px;
@@ -35,12 +32,108 @@ body{
     width:350px
 
 }
+.hero-container{
+    display:flex;
+    justify-content: center;
+    background-color: brown;
+}
 
 .hero{
     display:flex;
+    justify-content: center;
+    margin: 0 90px 90px 90px;
+    background-color: brown;
+
+}
+
+.hero-sub{
+    min-width: 250px;
+    margin-bottom: 20px;
 }
 
 .hero-column{
     display:flex;
     flex-direction:column;
+    margin-right:90px;
+    margin-top:50px;
 }
+
+button{
+    padding: 10px;
+    width: 120px;
+  
+
+}
+
+img {
+    height:300px;
+    width: 300px;
+}
+.hero-image{
+    margin-top: 50px;
+    margin-right: 10px;
+    height:300px;
+    width: 450px;
+}
+
+.main-panel{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:40px 0 40px 0;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 auto;
+    gap:15px;
+}
+
+.subtext{
+    text-align: center;
+}
+
+.quote-container{
+    display:flex;
+    justify-content: center;
+    background-color: darkseagreen;
+}
+
+.quote-panel{
+    width: 1245px;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote{
+    font-size:24px;
+    font-style: italic;
+}
+
+.person
+{
+    align-self: flex-end;
+    padding-right: 30px;
+}
+
+.sign-up-container{
+    background-color: darkgoldenrod;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-box{
+margin:100px 0 100px 0;
+background-color: bisque;
+width: 800px;
+height: 150px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
